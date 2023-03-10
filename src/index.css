@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family: 'Goldplay';
+    src: local('Goldplay'), url(./assets/fonts/goldplay/Goldplay\ Bold.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Franchise';
+    src: local('Franchise'), url(./assets/fonts/franchise_2/Franchise.ttf) format('truetype');
+}
+
+p,label
+{
+    font-family: 'Goldplay';
+}
+h1
+{
+    font-family: 'Franchise';
+}
